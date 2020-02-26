@@ -1,0 +1,89 @@
+body {
+  background-color: #ADA59A;
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  background-image: url("ressources/back-cover.jpg");
+  background-size: cover; }
+
+#container {
+  background-color: #FBF3E8;
+  border-bottom: 0.15em solid rgba(196, 196, 196, 0.61);
+  border-left: 0.1em solid rgba(196, 196, 196, 0.61);
+  border-right: 0.1em solid rgba(196, 196, 196, 0.61);
+  border-radius: 0.3em;
+  align-self: center;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+#cover {
+  width: 100%;
+  border: 0.3vw solid #CBC1B0;
+  /* Pour que la bordure soit interne et pas externe */
+  box-sizing: border-box;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em; }
+
+#basic_jobs {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 30%;
+  margin-right: 30%; }
+
+#jobs_img {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: inherit; }
+
+#jobs_img > li > img {
+  width: 100%;
+  opacity: 60%; }
+
+#jobs_img > li > img:hover {
+  cursor: pointer;
+  opacity: 100%; }
+
+#job_name {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  height: 1.5em;
+  padding-bottom: 1vw;
+  color: #0e0e0e;
+  text-shadow: 1px 1px 2px grey; }
+
+#tab_jobs {
+  text-align: -moz-center;
+  margin-right: 25%;
+  margin-left: 25%; }
+  #tab_jobs table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #CBC1B0;
+    font-size: 100%;
+    width: 72%; }
+  #tab_jobs th {
+    background-color: #9c948a;
+    color: white;
+    padding: 2%;
+    text-shadow: 0.4px 0.4px 1px white;
+    border: 2px solid #CBC1B0; }
+  #tab_jobs td {
+    background-color: #ffffff;
+    color: #8b857e;
+    padding: 2%;
+    width: 10%;
+    text-shadow: 0.4px 0.4px 1px grey;
+    border: 2px solid #CBC1B0; }
+  #tab_jobs tr div:hover {
+    cursor: help; }
+
+#info_survol {
+  background-color: rgba(89, 62, 69, 0.897);
+  border: 2px solid #79696c;
+  color: white;
+  padding: 1%;
+  text-align: justify; }
+
+/*# sourceMappingURL=homepage.css.map */
